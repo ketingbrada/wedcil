@@ -461,6 +461,52 @@
                                 </div>
                             </div>
                         </div>
+                        <div data-aos="zoom-in" data-aos-duration="1000">
+            <h2>Ucapan & Doa</h2>
+            <form>
+                <label for="name">Nama</label>
+                <input type="text" name="name" id="name" placeholder="masukan nama anda" autoComplete="off" required/>
+                <label for="status">Kehadiran</label>
+                <select name="status" id="status" required aria-required="true">
+                    <option value="" disabled selected>konfirmasi kehadiran</option>
+                    <option value="y">Hadir</option>
+                    <option value="n">Tidak Hadir</option>
+                </select>
+                <label for="message">Ucapan & Doa</label>
+                <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Tulis ucapan & Doa"
+                        required
+                        minlength="8"
+                ></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1000">
+            <p style="margin-bottom: 0.5rem"></p>
+            <hr>
+
+            <ul aria-label="list comentar"></ul>
+            <hr style="margin-top: 1rem">
+            <div class="button-grup">
+                <button>
+                    <i class="bx bxs-left-arrow-circle"></i>
+                    <span>prev</span>
+                </button>
+                <span class="page-number"></span>
+                <button>
+                    <span>next</span>
+                    <i class="bx bxs-right-arrow-circle"></i>
+                </button>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" aria-hidden="true">
+            <path fill="#f8f9fa" fill-opacity="1"
+                  d="M0,96L48,122.7C96,149,192,203,288,197.3C384,192,480,128,576,122.7C672,117,768,171,864,160C960,149,1056,75,1152,64C1248,53,1344,107,1392,133.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
                     </div>
                 </section>
 
