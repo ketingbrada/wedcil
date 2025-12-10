@@ -1,0 +1,20 @@
+{
+  "title": "Undangan Pernikahan",
+  "groom": "Rizki",
+  "bride": "Dijah",
+  "date": "2025-12-25",
+  "location": "Jakarta Timur",
+  "maps": "https://maps.app.goo.gl/8HNpWxXtGc7w6uQA9?g_st=aw",
+  "gallery": [
+    {
+      "url": "assets/images/1.jpg"
+    }
+  ],
+  "bank": [
+    {
+      "bank_name": "DANA",
+      "account_name": "Siti Khodijah",
+      "account_number": "082123809798"
+    }
+  ]
+}
